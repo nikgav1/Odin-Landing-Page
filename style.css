@@ -4,12 +4,17 @@
     box-sizing: border-box;
     font-family: 'Roboto', arial;
 }
-
+header{
+    background-color: #1f2937;
+    color: white;
+}
+h1{
+    font-size: 48px
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
     padding: 0 120px;
-    background-color: #1f2937;
 }
 .sigma-logo{
     width: 100px;
@@ -22,5 +27,36 @@
 .link-container a{
     text-decoration: none;
     font-size: 18px;
-    color: white;;
+    color: white;
+}
+.header-section{
+    display: flex;
+    padding: 80px 20%;
+    gap: 80px;
+}
+.header-section-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 30px;
+}
+#header-section-text-p{
+    opacity: 70%;
+    font-size: 18px;
+}
+.learn-more{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.learn-more:hover{
+    background-color: #224e94;
+    border: 2px solid black;
+    color: rgb(219, 219, 219);
+    transition: 0.5s;
 }
