@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    background-color: #1f2937;
+}
+.sigma-logo{
+    width: 100px;
+}
+.link-container{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+.link-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;;
+}
