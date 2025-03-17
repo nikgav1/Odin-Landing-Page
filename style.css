@@ -12,6 +12,9 @@ h1{
     font-size: 48px;
     font-weight: 900;
 }
+button{
+    cursor: pointer;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
