@@ -63,7 +63,7 @@ button{
     font-weight: bold;
     transition: 0.2s;
 }
-.learn-more:hover{
+.btn:hover{
     background-color: #224e94;
     border: 2px solid black;
     color: rgb(219, 219, 219);
@@ -116,4 +116,27 @@ figcaption {
 }
 b{
     margin: 20px 0;
+}
+.blue-box{
+    background-color: #3882f6;
+    color: white;
+    margin: 135px 250px;
+    padding: 60px 45px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.sign-in-button{
+    width: 100px;
+    height: 40px;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
 }
