@@ -140,3 +140,12 @@ b{
     font-weight: bold;
     transition: 0.2s;
 }
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 50px 0;
+    color: white;
+}
+footer a{
+    color: white;
+}
